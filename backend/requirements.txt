@@ -1,0 +1,13 @@
+numpy
+scipy
+librosa
+pandas
+matplotlib
+yt_dlp
+fastapi
+uvicorn
+python-multipart
+soundfile
+pydub
+ffmpeg-python
+audioread
