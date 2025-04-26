@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional
 
+import config
 from src.fingerprinting.generator import Fingerprint
 
 logger = logging.getLogger(__name__)
@@ -147,7 +148,7 @@ class DatabaseManager:
             raise
 
     def find_matches(
-        self, fingerprints: List[Fingerprint], threshold: float = 0.05
+        self, fingerprints: List[Fingerprint], threshold: float = config.MATCH_THRESHOLD
     ) -> List[Match]:
         """
         Find matches for a set of fingerprints using improved matching algorithm.
