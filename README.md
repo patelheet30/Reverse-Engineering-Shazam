@@ -5,7 +5,7 @@
 This repository contains a reverse engineering of the Shazam app, which is used for music recognition. The goal of this project is to understand how the app works and to create a similar app using Python.
 
 > [!NOTE]
-> Built for a submission for the AI/ML module at Nottingham Trent University.
+> Built for a submission for the Project in Mathematics module at Nottingham Trent University.
 
 ## Requirements
 
